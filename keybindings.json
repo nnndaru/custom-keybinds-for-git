@@ -1,0 +1,66 @@
+[
+  {
+    "key": "ctrl+shift+d",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "npm run dev\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "npm run build\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "npm run start\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "git status\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "alt+a",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "git add .\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "alt+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "git commit -m \"Update\"\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "alt+p",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "git push origin main\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  },
+  {
+    "key": "alt+i",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "npm i\r"
+    },
+    "when": "terminalFocus || editorTextFocus"
+  }
+]
